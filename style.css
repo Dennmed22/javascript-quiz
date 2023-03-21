@@ -1,0 +1,90 @@
+@media screen and (max-width: 575px) {}
+
+@media screen and (max-width: 768px) {}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    background-color: #980a0a;
+    padding: 50px;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+h1{
+    text-align: center;
+}
+
+.quiz,
+.scores {
+    margin: 100px auto 0 auto;
+    max-width: 400px;
+}
+
+.start-quiz{
+    border: solid;}
+
+.main-page {
+    text-align: center;
+}
+
+p {
+    margin: 15px 15px;
+}
+
+.high-score-record {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.timer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+button {
+    display: inline-block;
+    margin: 12px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #650ebc;
+    border-radius: 5px;
+    border: 50%;
+    padding: 20px;
+}
+
+.options button {
+    display: block;
+}
+
+button:hover {
+    background-color: #09000d;
+}
+
+.hide {
+    display: none;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+.feedback {
+    font-style: bold;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 15px;
+    color: #fff;
+    border-top: 2px solid #46070e;
+}
+
